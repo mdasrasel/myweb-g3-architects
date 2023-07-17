@@ -26,12 +26,13 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.nav-title {
+.nav-section-title {
     color: #131313;
-    tab-size: 1.8rem;
-    align-items: canter;
+    font-size: 1.8rem;
+    font-weight: 700;
 
 }
 
@@ -67,7 +68,7 @@ nav li a {
 .text-description {
     color: #727272;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 26px;
 }
