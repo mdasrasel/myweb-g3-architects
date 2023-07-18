@@ -128,7 +128,7 @@ main {
 }
 .features img{
     height: 90%;
-    margin-left:50px;
+    margin-left:25px;
 }
 
 .features-content .card {
@@ -248,7 +248,7 @@ main {
         flex-direction: column;
     }
     .features-img img{
-        width: 90%;
+        height: 50%;
         margin-left: 0;
     }
     .ten-years-badge h3{
@@ -257,7 +257,7 @@ main {
     }
     .ten-years-badge{
         position: static;
-        max-width: 250px;
+        max-width: 200px;
     }
     .teams-img-container {
         grid-template-columns: 1fr;
@@ -271,6 +271,9 @@ main {
 
     .facts-card-container {
         gap: 20px;
+    }
+    .footer-section{
+        width: 50%;
     }
 }
 
@@ -290,5 +293,8 @@ main {
     .sponsor-img-container,
     .features {
         flex-direction: column;
+    }
+    .footer-section{
+        width: 75%;
     }
 }
